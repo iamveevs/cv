@@ -1,0 +1,221 @@
+body {
+	margin: 0;
+}
+
+div.top {
+	background-color:blanchedalmond;
+    position: relative;
+    padding: 100px 0 100px 0;
+    text-align: center;
+}
+
+div.middle {
+	margin: 0 auto;     
+	width: 90%;         
+	max-width: 1200px;
+
+}
+
+div.middle:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+div.all:after {
+	content: "";
+  	display: table;
+  	clear: both;
+}
+
+div.bottom {
+	background-color: lightgray;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	color:darksalmon;
+	font-size: 15px;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+ul {
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	color:darksalmon;
+	font-size: 20px;
+}
+
+a {
+	color:darksalmon;
+}
+
+a:link { 
+	text-decoration: none; 
+}
+a:visited { 
+	text-decoration: none; 
+}
+
+a:hover { 
+	text-decoration: none; 
+}
+
+a:active { 
+	text-decoration: none; 
+}
+
+a.button:link, a:visited {
+	background-color: white;
+	border: 2px solid black;
+	padding: 1px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+  }
+  
+  a.button:hover, a:active {
+	background-color: cyan;
+	color:black;
+  }
+
+  .buttondiv {
+	margin-top: 50px;
+	text-align: center;
+  }
+
+  a.link:hover {
+	color: cyan;
+  }
+
+  hr {
+	border: 1px solid black;
+	margin-top: 50px;
+  }
+
+  hr.hr1 {
+	border-top: 1px dashed black;
+  }
+
+  hr.hr2 {
+	border: 5px solid black;
+	border-radius: 2px;
+  }
+
+  .mountain1 {
+	position:absolute;
+	left: 150px;
+	border-radius: 500px;
+  }
+
+  .mountain2 {
+	position:absolute;
+	right: 150px;
+	border-radius: 500px;
+  }
+
+  img.coding {
+	height: 190px;
+	width: 150px;
+	margin-left: 350px;
+  }
+
+  img.internship {
+	height: 190px;
+	width: 150px;
+	margin-left: 350px;
+  }
+
+  .container {
+	float: left;
+	width: 47%;
+  }
+
+  .container2 {
+	float: left;
+	width: 80%;
+  }
+
+  .container3 {
+	text-align: left;
+  }
+
+  .picture {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	height: 150px;
+	width: 120px;
+	border-radius: 500px;
+  }
+
+ h2 {
+	text-align: center;
+ }
+
+ h3 {
+	text-align: center;
+ }
+
+ .invisiblehr {
+    clear: both;
+    visibility: hidden;
+}
+
+.contact{
+    width: 50%;
+    margin: 10px auto;
+    border-width: 60px 0;
+    padding: 60px;
+    display: inline-block;
+  
+}
+
+.leftSide{
+    margin-left: 35%;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.rightSide{
+   width: 70%;
+}
+
+.textArea {
+	float: right;
+	width: 52%;
+	margin-right: 35px;
+}
+
+.contactButton {
+	margin-left: 250px;
+	margin-top: 30px;
+}
+
+.messageleftSide {
+	margin-left: 31%;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.emailleftSide {
+	margin-left: 34%;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.language {
+	text-align: left;
+}
+  
